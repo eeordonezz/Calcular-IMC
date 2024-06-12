@@ -1,0 +1,112 @@
+.contenedor{
+    width: 50rem;
+    height: 25rem;
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.calculacion{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 1rem;
+    padding: 2rem 2rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    width: 110%;
+    height: 60%;
+}
+button{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(89, 145, 89);
+
+
+}
+.contenedor_titulo h1{
+    font-size: 2.6rem;
+}
+.tabla_informacion{
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    display: grid;
+
+    
+}
+
+.tabla_info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    
+}
+
+.tabla_info thead{
+    width: 100%;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows:  40% 10% 40%;
+width: 100%;
+justify-content: center;
+
+
+}
+.tabla_info thead th{
+    
+   
+    width: 100%;
+    font-size: 1.3rem;
+
+}
+.tabla_info tbody{
+    width: 100%;
+    height: 100%;
+  
+    border: 2px solid black;
+
+}
+.tabla_info tbody tr{
+    
+    display: grid;
+    grid-template-columns: 40% 10% 40%;
+width: 100%;
+justify-content: center;
+padding: 0.5rem;
+}
+#peso{
+border-radius: 0.5rem;
+outline: none;
+border: 1px solid black;
+
+}
+#altura{
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid black;
+}
+#resultado{
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: center;
+    
+}
